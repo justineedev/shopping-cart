@@ -1,16 +1,15 @@
-import { Component } from '@angular/core';
+import { AfterViewInit, Component } from '@angular/core';
+import { NavComponent } from './components/nav/nav.component';
+import { ProductsListComponent } from './pages/products-list/products-list.component';
 import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [NavComponent, RouterOutlet],
   template: `
-    <h1>Welcome to {{title}}!</h1>
-
+    <app-nav />
     <router-outlet />
   `,
   styles: [],
 })
-export class AppComponent {
-  title = 'shopping-cart';
-}
+export class AppComponent {}
