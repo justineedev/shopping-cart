@@ -10,9 +10,11 @@ Available discount coupons:
 
 ## Tech Stack
 
-**Client:** Angular 19, Tailwind, ngxpert hot toast
+Client: **Angular 19, Tailwind, ngxpert hot toast**
 
-**Server:** JSON live server
+Server: **JSON live server**
+
+Unit testing: **jest**
 
 ## Run Locally
 
@@ -51,6 +53,16 @@ Start the application (new terminal in project directory)
 ```bash
 ng serve
 ```
+
+## Running Tests
+
+To run tests, run the following command
+
+```bash
+  npm test
+```
+
+
 
 ## Features
 
