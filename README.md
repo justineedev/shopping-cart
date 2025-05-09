@@ -22,10 +22,10 @@ Available discount coupons:
 - Angular cli **^19.2.11**
 - json-server installed [check here](https://www.geeksforgeeks.org/json-server-setup-and-introduction/)
 
-Clone the project
+Clone the project via SSH
 
 ```bash
-git clone https://link-to-project
+git clone git@github.com:justineedev/shopping-cart.git
 ```
 
 Go to the project directory
@@ -73,3 +73,4 @@ ng serve
 - Users do not require authentication or login to use the app
 - Cart data is stored locally and does not persist across different browsers or devices
 - All product data is fetched from a mock API (no live backend)
+- Not fully responsive, recommended screen size around 1024px
