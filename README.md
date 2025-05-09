@@ -82,6 +82,7 @@ To run tests, run the following command
   - **ISAVE15** = 15% discount
   - **MEGA20** = 20% discount
 - Discounts are automatically applied on input change
+- Coupon code inputs are not persisted in localStorage
 - Users do not require authentication or login to use the app
 - Cart data is stored locally and does not persist across different browsers or devices
 - All product data is fetched from a mock API (no live backend)
