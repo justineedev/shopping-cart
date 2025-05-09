@@ -86,3 +86,8 @@ To run tests, run the following command
 - Cart data is stored locally and does not persist across different browsers or devices
 - All product data is fetched from a mock API (no live backend)
 - Not fully responsive, recommended screen size around 1024px
+
+
+## Time spent
+
+Around 6-8 hours 🤓
